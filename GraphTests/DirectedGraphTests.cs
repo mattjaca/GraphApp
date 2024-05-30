@@ -17,7 +17,7 @@ namespace GraphTests
 
 
             // Assert
-            Assert.IsInstanceOfType<Vertex>(result);\
+            Assert.IsInstanceOfType<Vertex>(result);
             Assert.AreEqual(result.Label, "Toast");
         }
 
